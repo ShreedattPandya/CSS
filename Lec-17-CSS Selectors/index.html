@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        /* div{
+            background-color: green;
+        } */
+
+          /* Class Selector */
+          .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #yellow{
+            background-color: yellow;
+        }
+
+        /* Child Selector */
+        div > p{
+            background-color: blue;
+            color: red;
+        }
+
+        /* Descendent selector */
+        div span{
+            background-color:black;
+            color: white;
+        }
+
+        /* Universal Selector */
+        *{
+        margin:0px;
+        padding:0px;;        
+        }
+
+        /* Pseudo Selector */
+        a:link{
+            color:rgb(233, 54, 203):
+        }
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: red;                                                           
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            color:darkorange;
+        }
+
+    </style>
+</head> 
+<body>
+    <main>
+        <p>This is first-child.</p>
+    
+    <div>
+        This is div-element selector.
+        <p>This is para in div and also first-chiild.</p>
+        <article>
+                <span>This is span in article in div</span>
+        </article>     
+    </div>
+
+    <div class="red">This is class selector</div>
+    <div id="yellow">This is id selector</div>
+
+    <div>
+        <a href="https://www.goo2gle.com">Google</a>
+        <a href="https://www.youtube.com">Youtube</a>
+    </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitons </title>
+    <style>
+        .container{
+            width: 50vw;
+            height: 50vh;
+            border: 2px solid black;
+
+        }
+        .box{   
+            width: 5vw;
+            height: 5vh;
+            border: 2px solid green;
+            background-color: lightgreen;
+            
+        }
+        .translate{
+            transform: translateX(175%) translateY(175%);
+            transition-duration: 3s;
+            transition-property:transform;
+            transition-timing-function: cubic-bezier(0.55, 0, 0, 0.78);
+            transition-delay: 1s;
+            <!-- transition: all 3s ease-in-out 1s; -->
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate">
+            Box
+        </div>
+    </div>
+</body>
+</html>

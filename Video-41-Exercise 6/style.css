@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+
+header {
+    padding-left: 10vw;
+    padding-top: 2vw;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+
+    margin-left: 36vw;
+    margin-right: 14vw;
+    justify-content: space-between;
+}
+
+.navbar nav {
+    align-items: center;
+    margin-left: 65px;
+    font-size: medium;
+}
+
+img.mainlogo {
+    width: 11vw;
+    float: left;
+}
+
+nav img.icon {
+    width: 3vw;
+}    
+
+.main1 {
+    display: flex;
+    margin: 7vh;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
+        overflow-x: 
+}
+
+.line1 {
+    font-size: 50px;
+    clear: both;
+}
+
+.main1 .img1 {
+    width: 50px;
+    height: 20px;
+    padding-left: 20px;
+    
+}
+
+.main2 {
+     /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*width: 29vw;*/
+}
+
+.main2 .line2{
+    width: 33vw;
+}
+.button{
+    background-color: rgb(73, 195, 233);
+    border-radius: 5%;
+    padding: 10px 24px;  
+    border: 0px ;
+    margin: 20px;
+    color: white;
+    font-weight: bold; 
+}
+/* .green{
+     background-color: forestgreen; 
+} */
+.smallbtn{
+    padding: 3px 25px;
+    border-radius: 5%;
+    border: 0px;
+    color: white;
+    font-weight: bold; 
+
+}
+.blue{
+    background-color: rgb(73, 195, 233);
+}
+.green {
+    background-color: rgb(23, 168, 42);
+}
+.version{
+    max-width: 70vw;
+    margin:auto; 
+    padding-bottom: 8vh;
+}
+.second .version :nth-child(2){
+    font-size: 20px;
+}
+.second .version :nth-child(3){
+    font-size: 12px;
+}
+
+.items{
+    padding: 23px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8%;
+    max-width: 70vw;
+}
+.items button {
+    vertical-align: top; /* Align buttons to the top of the .items container */
+}
+.items button a{
+    text-decoration: none;
+    color: white
+    ;
+}
+.lang{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.grid{
+    margin:auto;
+    max-width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px;   
+}
+
+@media screen and (max-width:900px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0px;
+        }
+
+        .box {
+            border: 2px solid blue;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            /*only for block elements*/
+            background-color: aqua;
+        }
+
+        .container {
+            padding: 10px;
+            border: 2px solid blue;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 10vh; */
+            margin: 23px auto;
+            /*only for block elements*/
+            background-color: aqua;
+
+        }
+
+        .container>p {
+            font-size: 1.5em;
+            /*Inherit from vw or vw and told 1.5 times em*/
+            border: 2px solid red;
+            width: 50%;
+            /* Percent is to inherit like here 50% width from the upper class */
+        }
+
+        .container2 {
+            border: 2px solid black;
+            /* width: 90vmax; */
+            /* margin: 70px auto; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vitae adipisci autem repellat facere
+            itaque at? Quasi ipsum autem laborum iusto, optio molestiae distinctio maiores tempore atque dolore nihil
+            recusandae culpa fugiat quidem. Illum, voluptatibus alias earum sed cum molestiae consequatur dolor
+            assumenda cupiditate ullam.</p>
+    </div>
+
+    <div class="container2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+</body>
+
+</html>
